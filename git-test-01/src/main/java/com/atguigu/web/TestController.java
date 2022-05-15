@@ -14,6 +14,7 @@ public class TestController {
     @RequestMapping("/test")
     public String test() {
         Integer age = 18;
-        return "Hello Git " + 18;
+        String name = "Tom";
+        return "Hello Git " + age + " " + name;
     }
 }
