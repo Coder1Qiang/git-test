@@ -14,6 +14,7 @@ public class TestController {
     @RequestMapping("/test")
     public String test() {
         System.out.println("hot-fix");
+        System.out.println("hot-fix-2");
         Integer age = 18;
         String name = "Tom";
         return "Hello Git " + age + " " + name;
