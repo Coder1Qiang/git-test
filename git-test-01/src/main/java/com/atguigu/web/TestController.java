@@ -19,6 +19,7 @@ public class TestController {
         System.out.println("git push origin master");
         System.out.println("git pull origin master");
         System.out.println("git pull origin master with IDEA");
+        System.out.println("IDEA本地修改代码");
         Integer age = 18;
         String name = "Tom";
         return "Hello Git " + age + " " + name;
