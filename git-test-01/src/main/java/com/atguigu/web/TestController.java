@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/test")
     public String test() {
+        System.out.println("hot-fix");
         Integer age = 18;
         String name = "Tom";
         return "Hello Git " + age + " " + name;
